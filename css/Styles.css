@@ -7,9 +7,17 @@ img {
     max-width: 100%;
 }
 
-li.nav-link{
-    margin:1px;
-    padding:1px;
+
+#about {
+    background: url('../img/black-grandpiano2.jpg') center center no-repeat;
+    background-size: cover;
+    height:auto !important;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
 }
 
 #footer-main {
