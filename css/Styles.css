@@ -3,22 +3,50 @@ body {
     height: 100%;
 }
 
-img {
-    max-width: 100%;
+.navbar{
+    padding:1rem;
 }
 
-
-#about {
-    background: url('../img/black-grandpiano2.jpg') center center no-repeat;
+.masterhead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background:  url("../img/chords-sheet-on-piano.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: cover;
-    height:auto !important;
 }
 
-.about-text {
-    background: rgba(0,0,0,0.8);
-    color: white;
-    padding: 1.875rem;
+    .masterhead h1 {
+        /*font-family: Lobster;*/
+        color: #e52121;
+    }
+
+
+#panel {
+    padding:1.5rem;
+    border: 1px solid black;
+    background: rgba(128, 128, 128,0.5);
+    border-radius:.70rem !important;
 }
+/*.masthead h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.masthead h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}*/
+
 
 #footer-main {
     background: #fff;
