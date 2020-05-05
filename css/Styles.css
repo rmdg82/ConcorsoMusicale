@@ -1,16 +1,22 @@
-js-scroll-trigger@charset "UTF-8";
+﻿js-scroll-trigger@charset "UTF-8";
 
 html,
 body {
     height: 100%;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-halant);
 }
 
+div.important{
+    border:1px solid var(--red);
+    padding: 1rem;
+}
+
 .navbar{
-    padding:1rem;
+    padding:0.8rem;
 }
 
 
@@ -25,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    box-shadow: 0 0.5rem 1rem  grey;
 }
 
     .masterhead h1,
@@ -43,24 +50,39 @@ h1, h2, h3, h4, h5, h6 {
 
 .masterhead #panel {
     padding:1.7rem;
-    /*border: 1px solid black;*/
+    border: 1px solid var(--red);
     background: rgba(22, 22, 22,0.7);
-    border-radius:.70rem !important;
-    box-shadow:0.2rem 0.2rem 0.2rem black;
+    border-radius:0.70rem !important;
+    box-shadow:0.4rem 0.4rem 0.6rem black;
 }
 
-.regolamento-content{
+.regolamento-content {
     padding: 5rem 0;
-    text-align:justify;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
-.regolamento-content strong{
+
+    .regolamento-content {
+        text-align: justify;
+        line-height: 2rem;
+    }
+
+    .regolamento-content strong{
     font-weight:bold;
     font-size:1.1rem;
-}
+    }
 
-#footer-main {
-    background: #fff;
-    color: #000000;
-    font-size: 0.8rem;
-    padding: 2.0rem 0;
-}
+    .regolamento-content bold {
+        font-weight: bold;
+    }
+
+    .regolamento-content a{
+        color:var(--red);
+    }
+
+        #footer-main {
+            background: #fff;
+            color: #000000;
+            font-size: 0.8rem;
+            padding: 2.0rem 0;
+        }
