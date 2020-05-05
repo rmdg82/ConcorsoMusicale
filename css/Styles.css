@@ -1,56 +1,66 @@
+js-scroll-trigger@charset "UTF-8";
+
 html,
 body {
     height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-halant);
 }
 
 .navbar{
     padding:1rem;
 }
 
+
 .masterhead {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
     min-height: 35rem;
     padding: 15rem 0;
-    background:  url("../img/chords-sheet-on-piano.jpg");
+    background: url("../img/chords-sheet-on-piano.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
 
-    .masterhead h1 {
-        /*font-family: Lobster;*/
-        color: #e52121;
+    .masterhead h1,
+    .masterhead h2,
+    .masterhead h3,
+    .masterhead h4,
+    .masterhead h5,
+    .masterhead h6 {
+        color: #fff;
+    }
+    
+    .masterhead hr {
+        border-top: 1px solid white;
     }
 
 
-#panel {
-    padding:1.5rem;
-    border: 1px solid black;
-    background: rgba(128, 128, 128,0.5);
+.masterhead #panel {
+    padding:1.7rem;
+    /*border: 1px solid black;*/
+    background: rgba(22, 22, 22,0.7);
     border-radius:.70rem !important;
-}
-/*.masthead h1 {
-    font-family: 'Varela Round';
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.8rem;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    box-shadow:0.2rem 0.2rem 0.2rem black;
 }
 
-.masthead h2 {
-    max-width: 20rem;
-    font-size: 1rem;
-}*/
-
+.regolamento-content{
+    padding: 5rem 0;
+    text-align:justify;
+}
+.regolamento-content strong{
+    font-weight:bold;
+    font-size:1.1rem;
+}
 
 #footer-main {
     background: #fff;
     color: #000000;
     font-size: 0.8rem;
-    padding: 2.5rem 0;
+    padding: 2.0rem 0;
 }
