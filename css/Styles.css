@@ -1,13 +1,11 @@
-﻿js-scroll-trigger
-
-html,
+﻿html,
 body {
     height: 100%;
-    
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-halant);
+    text-align:center;
 }
 
 div.important {
@@ -19,7 +17,6 @@ div.important {
 .navbar{
     padding:0.8rem;
 }
-
 
 .masterhead {
     position: relative;
@@ -57,16 +54,16 @@ div.important {
         box-shadow:0.4rem 0.4rem 0.6rem black;
     }
 
-.regolamento-content {
+.section-content {
     padding: 5rem 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
-    .regolamento-content {
-        text-align: justify;
-        line-height: 2rem;
-    }
+.regolamento-content {
+    text-align: justify;
+    line-height: 2rem;
+}
 
     .regolamento-content strong{
     font-weight:bold;
@@ -80,10 +77,26 @@ div.important {
     .regolamento-content a{
         color:var(--red);
     }
+.commissione-content .card-title{
+    color:var(--red);
+}
 
-        #footer-main {
-            background: #fff;
-            color: #000000;
-            font-size: 0.8rem;
-            padding: 2.0rem 0;
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-main {
+    background: #fff;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 2.0rem 0;
+}
