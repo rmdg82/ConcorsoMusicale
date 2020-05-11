@@ -9,10 +9,9 @@ $(function () {
     /* Scroll to section from .js-scroll-trigger */
     $('.js-scroll-trigger').click(function () {
         var sectionTo = $(this).attr('href');
-        console.log(sectionTo);
         $('html, body').animate({
             scrollTop: $(sectionTo).offset().top - 50
-        }, 1500);
+        }, 1300);
     });
 
     /* Scroll spy */
