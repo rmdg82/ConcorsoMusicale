@@ -19,9 +19,15 @@ div.important {
     padding: 1rem;
 }
 
+/*navbar*/
 .navbar{
     padding:0.8rem;
 }
+
+.nav-link.active{
+    color:var(--red) !important;
+}
+
 
 .btn-outline-danger:hover {
     color: #fff !important;
@@ -72,24 +78,25 @@ div.important {
     -webkit-font-smoothing: antialiased;
 }
 
+    
 /*Regolamento section*/
 .regolamento-content {
     text-align: justify;
     line-height: 2rem;
 }
 
-    .regolamento-content strong{
-    font-weight:bold;
-    font-size:1.1rem;
-    }
+.regolamento-content strong{
+font-weight:bold;
+font-size:1.1rem;
+}
 
-    .regolamento-content bold {
-        font-weight: bold;
-    }
+.regolamento-content bold {
+    font-weight: bold;
+}
 
-    .regolamento-content a{
-        color:var(--red);
-    }
+.regolamento-content a{
+    color:var(--red);
+}
 
 /*Commissione content*/
 .commissione-content .card-title{
@@ -108,12 +115,12 @@ div.important {
         font-size: 1.1rem;
     }
 
-    .premi-content bold {
-        font-weight: bold;
-    }
-
     .premi-content a {
         color: var(--red);
+    }
+
+    .premi-content p{
+        font-size:larger;
     }
 
 /*footer section*/
