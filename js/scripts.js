@@ -10,7 +10,7 @@ $(function () {
     $('.js-scroll-trigger').click(function () {
         var sectionTo = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(sectionTo).offset().top - 32
+            scrollTop: $(sectionTo).offset().top - 25
         }, 1300);
     });
 
