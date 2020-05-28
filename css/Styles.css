@@ -140,7 +140,7 @@ font-size:1.1rem;
     .video-content #panel {
         padding: 1.7rem;
         border: 1px solid var(--red);
-        background: rgba(22, 22, 22,0.7);
+        background: rgba(22, 22, 22,0.8);
         border-radius: 0.70rem !important;
         box-shadow: 0.4rem 0.4rem 0.6rem black;
         color:white
@@ -155,7 +155,8 @@ font-size:1.1rem;
     background: #fff;
     color: #000000;
     font-size: 0.8rem;
-    padding: 2.0rem 0;
+    padding: 2rem 0 1rem 0;
+    border-top:0.5px solid #b2b2b2;
 }
     #footer-main h6 {
         text-align: left !important;
