@@ -65,13 +65,13 @@ div.important {
 }
 
 
-.masterhead #panel {
-    padding:1.7rem;
-    border: 1px solid var(--red);
-    background: rgba(22, 22, 22,0.7);
-    border-radius:0.70rem !important;
-    box-shadow:0.4rem 0.4rem 0.6rem black;
-}
+    .masterhead #panel-masterhead {
+        padding: 1.7rem;
+        border: 1px solid var(--red);
+        background: rgba(22, 22, 22,0.7);
+        border-radius: 0.70rem !important;
+        box-shadow: 0.4rem 0.4rem 0.6rem black;
+    }
 
 .section-content {
     padding: 5rem 0;
@@ -131,20 +131,20 @@ font-size:1.1rem;
     height: 100%;
     min-height: 35rem;
     padding: 15rem 0;
-    background: url("../img/man-piano.jpg");
+    background: url("../img/orchestra.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
 
-    .video-content #panel {
+    .video-content #panel-video {
         padding: 1.7rem;
         border: 1px solid var(--red);
         background: rgba(22, 22, 22,0.8);
         border-radius: 0.70rem !important;
         box-shadow: 0.4rem 0.4rem 0.6rem black;
-        color:white
+        color: white
     }
 
 .video-content h1{
