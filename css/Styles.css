@@ -160,8 +160,8 @@ font-size:1.1rem;
     border-top:0.5px solid var(--red);
 }
 
-    #footer-main a .no-underscore :hover {
-        text-decoration: none;
+    #footer-main a:hover {
+        text-decoration: none !important;
     }
     #footer-main h6 {
         text-align: left !important;
